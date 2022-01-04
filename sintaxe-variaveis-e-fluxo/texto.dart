@@ -25,4 +25,14 @@ void main() {
   print(textoEint);
   // pode ser feito assim tbm.
   print("$textoEint $ano");
+
+  // atividade alura;
+
+  String texto_inicio = 'olá, meu nome é';
+  String endereco = 'rua Ovomaltine, numero 65';
+  String nome = 'Gustavo';
+  String nome_meio = 'Rocha';
+  String nome_final = 'Floyd';
+
+  print(texto_inicio + nome + nome_meio + nome_final + endereco);
 }
